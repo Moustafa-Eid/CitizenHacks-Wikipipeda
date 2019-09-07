@@ -1,5 +1,15 @@
-//Let's test the functionality out
+//We need the required functionality "google store scraper"
+var gplay = require('google-play-scraper');
 
-var store = require('app-store-scraper');
+//Depending on the user's input, we wish to use the API's search functionality to determine the closest match.
+//
+let searchQuery = "uber eats";
 
-store.app({id: 553834731}).then(console.log).catch(console.log);
+let returnedSearch = null;
+
+returnedSearch = gplay.search({
+    term: searchQuery,
+    num: 2
+  });
+
+  console.log(returnedSearch);
