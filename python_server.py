@@ -1,9 +1,10 @@
 import requests
 import re
 from bs4 import BeautifulSoup
+from tika import parser
 
 
-## Subroutine for webpages
+# Subroutine for webpages
 # Proven that it works for facebook (in current state)
 def webpage(url):
     url = "https://www.facebook.com/legal/terms/plain_text_terms"
@@ -23,5 +24,8 @@ def webpage(url):
     # All text.
     return soup_stripped
 
-def pdf(file_location)
+def pdf(file_location):
+    raw = parser.from_file(file_location)
+    return raw['content']
 
+# Enter your subroutines here...
