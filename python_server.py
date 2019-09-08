@@ -4,16 +4,28 @@ from bs4 import BeautifulSoup
 from tika import parser
 import json
 
+<<<<<<< HEAD
+=======
+url = "https://www.facebook.com/legal/terms/plain_text_terms"
+file_location = "sample.pdf"
+
+
+>>>>>>> 076b8689d58d090438c3a5b07b32e4972b849093
 # Subroutine for webpages
 # Proven that it works for facebook (in current state)
 def webpage(url):
     r = requests.get(url)
     # Parse through the text to find "terms of usage"
+<<<<<<< HEAD
     try:
         location = [m.start() for m in re.finditer('terms of service', r.text.lower())]
         soup = r.text[location[0]:]
     except:
         return 2
+=======
+    location = [m.start() for m in re.finditer('terms of service', r.text.lower())]
+    soup = r.text[location[0]:]
+>>>>>>> 076b8689d58d090438c3a5b07b32e4972b849093
 
     location = [m.start() for m in re.finditer('<script>', soup.lower())]
 
@@ -31,6 +43,12 @@ def pdf(file_location):
     print(raw['content'])
     return raw['content']
 
+<<<<<<< HEAD
+=======
+# Enter your subroutines here...
+pdf(file_location)
+webpage(url)
+>>>>>>> 076b8689d58d090438c3a5b07b32e4972b849093
 
 def tester():
     data = {}
@@ -43,4 +61,8 @@ def tester():
             'tvo': '9.22'
         }]
     })
+<<<<<<< HEAD
     return data
+=======
+    return data
+>>>>>>> 076b8689d58d090438c3a5b07b32e4972b849093
