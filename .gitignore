@@ -1,1 +1,5 @@
 node_modules
+.idea/
+Lib/site-packages/
+Scripts/
+__pycache__/
