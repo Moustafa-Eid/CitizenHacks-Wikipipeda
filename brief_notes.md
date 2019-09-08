@@ -1,9 +1,3 @@
-The Wiki-Pipeda is a volunteer effort towards making privacy as simple as possible for people to understand, and to not lose granularity.
-
-The main objective of the Wiki-pedia is to leverage the Keybase chat API to provide a convenient, easy way to check on the privacy status of our favorite online services. This is then represented in a single, easy to read source of truth - a number from 0 to 10.
-
-The premise is simple - elect a web crawler to 
-
 # Inspiration
 
 Have you ever been tasked with reading the long convoluted privacy terms when signing up for a new service? Wondering if there's a service that respects your privacy better than others, while still allowing the same functionality? With Wiki-pipeda these concerns are a thing of the past.
