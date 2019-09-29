@@ -25,7 +25,7 @@ Lastly was our choice of how to appropriately represent PIPEDA - focus on which 
 
 Working with chat bots is fun and something we'd love to continue to work with the KeyBase API. Working with web crawling techniques in an on-premise scenario is hugely rewarding.
 
-# What's next for Happly.io
+# What's next for Wikipipeda
 
 Version 0.1: developing a cloud native app that retains the same familiar interaction with Keybase users, and is able to scrape more data for better measurements.
 
