@@ -6,6 +6,9 @@ We are a small elite team of hackers in the Citizen hacks 2019 hackathon and we 
 
 Watch our repo to keep posted!
 
+Check Out Our Devpost for Pics and More Info!
+Devpost: https://devpost.com/software/musical-engine
+
 # Inspiration
 
 Have you ever been tasked with reading the long convoluted privacy terms when signing up for a new service? Wondering if there's a service that respects your privacy better than others, while still allowing the same functionality? With Wiki-pipeda these concerns are a thing of the past.
