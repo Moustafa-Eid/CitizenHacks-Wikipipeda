@@ -6,8 +6,8 @@ We are a small elite team of hackers in the Citizen hacks 2019 hackathon and we 
 
 Watch our repo to keep posted!
 
-Check Out Our Devpost for Pics and More Info!
-Devpost: https://devpost.com/software/musical-engine
+## Check Out Our Devpost for Pics and More Info!
+## Devpost: https://devpost.com/software/musical-engine
 
 # Inspiration
 
